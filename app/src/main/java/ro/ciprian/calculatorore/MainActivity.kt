@@ -291,4 +291,5 @@ fun AddScreen(vm: WorkViewModel) {
     }
 
     var start by remember {
-        mutable
+        mutableStateOf("")
+    }}
