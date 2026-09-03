@@ -293,3 +293,14 @@ fun AddScreen(vm: WorkViewModel) {
     var start by remember {
         mutableStateOf("")
     }}
+        
+
+@Composable
+fun HistoryScreen(vm: WorkViewModel) {
+    // ...
+}
+
+@Composable
+fun MonthlyScreen(vm: WorkViewModel) {
+    // ...
+}
